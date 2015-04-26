@@ -18,3 +18,8 @@ footer {
 .no-bullets {
   list-style-type: none;
 }
+
+.border-top {
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
