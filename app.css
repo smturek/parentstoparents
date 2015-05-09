@@ -38,6 +38,10 @@ body {
     background: #22A0A6;
 }
 
+.btn:hover {
+    background: #31908a;
+}
+
 li {
   margin-bottom: 15px;
 }
