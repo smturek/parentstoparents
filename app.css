@@ -1,3 +1,43 @@
+/* *****COLOR PALETTE*****
+Extra White - #EEF1EA
+Clary Sage - #AAB097
+Plum Brown - #4C4442
+Surfer - #22A0A6
+Tricorn Black - #2D2D2D */
+
+body {
+    background: #EEF1EA;
+    color: #2D2D2D;
+}
+
+.jumbotron {
+    background: #AAB097;
+}
+
+.navbar {
+    background: #4C4442;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #EEF1EA;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #22A0A6;
+}
+
+.navbar-default .navbar-brand {
+    color: #EEF1EA;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #22A0A6;
+}
+
+.btn {
+    background: #22A0A6;
+}
+
 li {
   margin-bottom: 15px;
 }
