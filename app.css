@@ -27,8 +27,21 @@ a:hover {
     background: #4C4442;
 }
 
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #EEF1EA;
+    padding: 15px 40px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -121,4 +134,12 @@ nav {
     width:400px;
     margin:0 auto;
     text-align:left;
+}
+
+.dropdown-menu {
+    background: #4C4442;
+}
+
+.dropdown-menu>li>a {
+    color: #EEF1EA;
 }
