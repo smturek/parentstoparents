@@ -80,6 +80,10 @@ li {
   margin-top: 20px;
 }
 
+.margin-top-75 {
+  margin-top: 75px;
+}
+
 .margin-right-40 {
   margin-right: 40px;
 }
@@ -142,4 +146,8 @@ nav {
 
 .dropdown-menu>li>a {
     color: #EEF1EA;
+}
+
+.teal {
+    color: #22A0A6;
 }
